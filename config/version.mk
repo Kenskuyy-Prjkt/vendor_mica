@@ -16,6 +16,7 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
   ro.mica.build.version=$(MICA_BUILD_VERSION) \
   ro.mica.build.date=$(BUILD_DATE) \
   ro.mica.buildtype=$(MICA_BUILD_TYPE) \
+  ro.mica.maintainer=$(MICA_MAINTAINER) \
   ro.mica.version=$(MICA_VERSION) \
   ro.mica.device=$(MICA_BUILD) \
   ro.modversion=$(MICA_VERSION) \
