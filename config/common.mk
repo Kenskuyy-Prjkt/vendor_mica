@@ -124,7 +124,8 @@ PRODUCT_SYSTEM_EXT_PROPERTIES += \
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.biometrics.face.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/android.hardware.biometrics.face.xml
 
-
+# TODO: Remove this once migrated to com.google.android.bt
+PRODUCT_MAINLINE_BLUETOOTH_SEPOLICY_DEV_CERTIFICATES=vendor/mica-priv/keys
 -include vendor/mica-priv/keys/keys.mk
 $(call inherit-product-if-exists, vendor/certification/config.mk)
 
